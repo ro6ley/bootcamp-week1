@@ -1,3 +1,9 @@
 def prime_numbers_generator(n):
 	""" Function to generate prime numbers for 0 to n """
-	pass
+	primes = [] # Initialize the list to contain the prime numbers generated
+	for number in range(2, n+1):
+		# Check if number is only divisible by itself and one only
+		for i in range(2, number):
+			if number % i != 0:
+				primes.append(number) # Add the number to the list of prime numbers
+	return primes
