@@ -1,5 +1,5 @@
 def prime_numbers_generator(n):
-    """ Function to generate prime numbers for 0 to n """
+    """ Function to generate prime numbers from 0 to n """
     primes = []  # Initialize the list to contain the prime numbers generated
     if isinstance(n, int):
         if n <= 1:
