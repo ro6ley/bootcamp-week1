@@ -1,4 +1,4 @@
-# Andela Cohort XVII Bootcamp Week 1
+# Andela Cohort XVIII Bootcamp Week 1
 
 My solutions to the Andela Bootcamp week one challenges
 
