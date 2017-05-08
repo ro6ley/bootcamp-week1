@@ -1,6 +1,6 @@
 # Andela Cohort XVIII Bootcamp Week 1
 
-My solutions to the Andela Bootcamp week one challenges
+My solutions to the Andela Bootcamp week one challenges for cohort 18
 
 ## Structure
 This repository is organized as follows:
