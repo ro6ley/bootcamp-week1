@@ -21,6 +21,13 @@ class PrimeNumbersTest(unittest.TestCase):
         result = prime_numbers_generator(24)
         self.assertIn(23, result)
 
+    def test_no_negative_number_in_primes(self):
+        """ Check whether there is no negative values in the generated list"""
+        result = prime_numbers_generator(20)
+        self.assertNotIn(-3, result)
+        self.assertNotIn(-10, result)
+        self.assertNotIn(-19, result)
+
     def test_no_non_primes_are_returned(self):
         """ Check that the list that is returned does not include numbers
         that are not prime numbers"""
@@ -32,8 +39,13 @@ class PrimeNumbersTest(unittest.TestCase):
 
     def test_raises_error_if_n_is_list(self):
         """ Check whther an error is raised if n is a list """
-        pass
+        with self.assertRaises(ValueError):
+            prime_numbers_generator([])
 
     def test_raises_error_if_n_is_a_string(self):
         """ Check whether an error is raised if n is a string """
-        pass
+        with self.assertRaises(ValueError):
+            prime_numbers_generator("n")
+
+if __name__ == "__main__":
+    unittest.main()
