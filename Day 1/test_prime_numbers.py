@@ -18,3 +18,7 @@ class PrimeNumbersTest(unittest.TestCase):
 		""" Check whther an error is returned if n is not an integer """
 		pass
 
+	def test_if_twenty_three_is_prime(self):
+		""" Check whether 23 in the list of prime numbers generated """
+		result = prime_numbers_generator(24)
+		self.assertIn(23, result)
