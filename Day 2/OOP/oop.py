@@ -17,6 +17,9 @@ class Safaricom(MobileNewtworks):
         self.balance = balance
 
     def buy_airtime(self, amount):
+        """
+        Method to buy airtime
+        """
         if isinstance(amount, int) and amount is not None:
             if amount >= 0:
                 self.balance += amount
@@ -27,6 +30,9 @@ class Safaricom(MobileNewtworks):
             return "Only integers allowed"
 
     def send_airtime(self, amount):
+        """
+        Method to send airtime
+        """
         if isinstance(amount, int) and amount is not None:
             if amount >= 0:
                 if (self.balance - amount) > 5:
@@ -39,12 +45,16 @@ class Safaricom(MobileNewtworks):
         else:
             return "Only integers allowed"
 
+
 class Airtel(MobileNewtworks):
     """Class for the Airtel object"""
     def __init__(self, balance):
         self.balance = balance
 
     def buy_airtime(self, amount):
+        """
+        Method to buy airtime
+        """
         if isinstance(amount, int) and amount is not None:
             if amount >= 0:
                 self.balance += amount
@@ -55,6 +65,9 @@ class Airtel(MobileNewtworks):
             return "Only integers allowed"
 
     def send_airtime(self, amount):
+        """
+        Method to send airtime
+        """
         if isinstance(amount, int) and amount is not None:
             if amount >= 0:
                 if (self.balance - amount) > 5:
