@@ -1,4 +1,4 @@
-class MobileNewtworks(object):
+class MobileNetworks(object):
     """
     Class for the general mobile networks
     """
@@ -9,7 +9,7 @@ class MobileNewtworks(object):
         pass
 
 
-class Safaricom(MobileNewtworks):
+class Safaricom(MobileNetworks):
     """
     Class for the Safaricom object
     """
@@ -46,7 +46,7 @@ class Safaricom(MobileNewtworks):
             return "Only integers allowed"
 
 
-class Airtel(MobileNewtworks):
+class Airtel(MobileNetworks):
     """Class for the Airtel object"""
     def __init__(self, balance):
         self.balance = balance
