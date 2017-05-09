@@ -20,7 +20,7 @@ OOP:
 
 Andelabs:
 
-    This folder contains my solutions to the following Andelabs:
+    This folder contains my solutions and the tests to the following Andelabs:
     - Car Class Lab (OOP)
     - Data Types Lab (Programming Logic)
     - FizzBuzz (Programming Logic)
