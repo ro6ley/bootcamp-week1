@@ -20,8 +20,20 @@ OOP:
 
 Andelabs:
 
-    This folder contains my solutions and the tests to the following Andelabs:
+    This folder contains my solutions and the tests to the following Andelabs challenges:
     - Car Class Lab (OOP)
     - Data Types Lab (Programming Logic)
     - FizzBuzz (Programming Logic)
 	
+### Day 3:
+
+HTTP_Web:
+	
+	This folder contains my solution to HTTP & Web task.
+	It is a simple command line application that consumes the Twitter API using the Tweepy library
+
+Andelabs:
+	
+	This folder contains my solutions and tests to the following Andelabs challenges:
+	- Word Count Lab (Programming Logic)
+	- Max and Min Number Lab (Programming Logic)
