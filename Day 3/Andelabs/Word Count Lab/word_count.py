@@ -6,9 +6,8 @@ def words(input_string):
     """
     # create a new empty dictionary
     word_count = {}
-    # Extract the words from the string ad add them to a list
-    words_list = input_string.split()
-    for word in words_list:
+    # Extract the words from the string and add them to a list using a list comprehension
+    for word in [word for word in input_string.split()]:
         try:
             # convert integers in the string to be stored as integers in the final result and not string
             word = int(word)
@@ -32,4 +31,3 @@ def words(input_string):
 
     return word_count
 
-print(words("hello 1 2"))
