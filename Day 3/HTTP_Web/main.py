@@ -64,7 +64,7 @@ def docopt_cmd(func):
 
 
 class MyTwitterCLI(cmd.Cmd):
-    prompt = 'twitter_CLI >>> '
+    prompt = 'Twitter_CLI >>> '
     file = None
     print(__doc__)
 
