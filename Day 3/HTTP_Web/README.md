@@ -4,8 +4,8 @@ It is a simple command line application that consumes the Twitter API using the 
 
 Install the requirements from the `requirements.txt`:
     
-    `pip install -r requirements.txt`
+    pip install -r requirements.txt
 
 To execute:
 
-    `python main.py -i`
+    python main.py -i
