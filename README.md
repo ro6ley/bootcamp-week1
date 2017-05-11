@@ -41,3 +41,14 @@ Andelabs:
 	This folder contains my solutions and tests to the following Andelabs challenges:
 	- Word Count Lab (Programming Logic)
 	- Max and Min Number Lab (Programming Logic)
+	
+### Day 4:
+Front-End:
+    
+     Used HTML and CSS re-create the Bing Homepage.
+
+Andelabs:
+
+    This folder contains my solutions and tests to the following Andelabs challenges:
+	- Binary Search Lab (Programming Logic)
+	- Missing Number Lab (Programming Logic)
